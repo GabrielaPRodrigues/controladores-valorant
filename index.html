@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imersao-dev-alura/imagens/logo-controlador.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Controladores do Valorant</title>
+</head>
+
+<body>
+    <header>
+        <h1>Controladores do Valorant</h1><!--boa prática usar apenas um h1 na página-->
+    </header>
+    <main>
+        <div class="imagem-fundo">
+            <img src="../imersao-dev-alura/imagens/VALORANT_Logo_V.jpg" alt="Imagem de fundo Valorant">
+        </div>
+        <section>
+            <p class="descricao-classe">Os controladores (ou "smokes") se dedicam a dissecar territórios perigosos,
+                tirando a visão dos inimigos com suas fumaças e pavimentam o caminho do sucesso para a equipe.</p>
+            <input type="text" placeholder="Digite o nome do agente" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+        <p>2024 | Desenvolvido por <a href="https://www.linkedin.com/in/gabrielaprodrigues/" target="_blank">Gabriela
+                Rodrigues</a></p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
